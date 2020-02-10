@@ -1,11 +1,11 @@
 class Tresor extends Element {
 
 	constructor(x) {
-		// à compléter
+		super(x,1,'tresor');
 	}
 
 	initialiser(x) {
-		// à compléter
+		super.initialiser(x,1,document.getElementById('tresor'));
 	}
 
 }

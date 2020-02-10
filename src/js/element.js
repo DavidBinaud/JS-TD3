@@ -9,8 +9,8 @@ class Element {
 	initialiser(x,y,str) {
 		this.coordX = x;
 		this.coordY = y;
-		setSrc(str);
-		placer();
+		this.setSrc(str);
+		this.placer();
 	}
 
 	setSrc(str) {
