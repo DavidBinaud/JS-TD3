@@ -4,6 +4,7 @@ class Element {
 		this.coordX = x;
 		this.coordY = y;
 		this.sprite = document.getElementById(id);
+		this.placer();
 	}
 
 	initialiser(x,y,str) {

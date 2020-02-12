@@ -31,6 +31,7 @@ class Champ {
 	}
 
 	afficher() {
+		this.balise_div.innerHTML = null;
 		for (var i = 0; i < 20; i++) {
 			for (var j = 0; j < 20; j++) {
 				let imgToInsert = document.createElement("img");
@@ -50,7 +51,9 @@ class Champ {
 
 	cacher() {
 		for (var i = 0; i < 400; i++) {
-			this.balise_div.removeChild(this.balise_div.children[0]);
+			if(this.balise_div.children.length  > 0){
+				this.balise_div.removeChild(this.balise_div.children[0]);
+			}
 		}
 	}
 }
