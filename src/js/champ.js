@@ -14,7 +14,7 @@ class Champ {
 			this.carte[0][xT-2] = 0;
 		}
 		if (xT < 20) {
-			this.carte[0][xT] = 0;
+			this.carte[0][xT] = 0; 
 		}
 
 
